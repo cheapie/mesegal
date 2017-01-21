@@ -287,3 +287,12 @@ minetest.register_node("mesegal:gal_burnt",{
 	tiles = {"mesegal_burnt.png","mesegal_sides.png","mesegal_sides.png","mesegal_sides.png","mesegal_sides.png","mesegal_sides.png"},
 	groups = {dig_immediate=2,not_in_creative_inventory=1},
 })
+
+minetest.register_craft({
+	output = "mesegal:gal_0",
+	recipe = {
+		{"mesecons_gates:and_off","mesecons_gates:and_off","mesecons_gates:or_off",},
+		{"mesecons_gates:and_off","mesecons_gates:and_off","mesecons_gates:or_off",},
+		{"mesecons_gates:and_off","mesecons_gates:and_off","mesecons:wire_00000000_off",},
+	}
+})
