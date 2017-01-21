@@ -264,6 +264,7 @@ for i=0,15,1 do
 		},
 		drop = "mesegal:gal_0",
 		tiles = tiles,
+		inventory_image = "mesecons_wire_on.png^mesegal_top.png",
 		groups = groups,
 		mesecons = mesecons,
 		on_construct = function(pos)
